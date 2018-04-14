@@ -10,6 +10,21 @@ namespace Sheep.Site.Api.Controllers
     [Route("api/[controller]")]
     public class AnimalsController : Controller
     {
+        private IEnumerable<Animal> GetAnimals()
+        {
+            var animals = new List<Animal>();
+
+            animals.Add(new Animal(){
+                Id = 3,
+                sheepGender = 'F'});
+
+            animals.Add(new Animal()
+            {
+                Id = 4,
+                sheepGender = 'M'});
+            
+            return animals;
+        }
         private readonly SheepSiteContext db;
         
         public AnimalsController(SheepSiteContext db)
@@ -35,6 +50,12 @@ namespace Sheep.Site.Api.Controllers
             }
         }
         [HttpGet]
+
+            public IActionResult Index()
+            {
+                var animals = GetAnimals();
+                return View(animals);
+            }
             public IActionResult GetAll()
             {
                 return Ok(db.Animals);

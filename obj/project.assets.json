@@ -12543,11 +12543,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/edinacelic/Documents/GitHub/SheepFitMVC/Sheep.Site.Api.csproj",
+      "projectUniqueName": "/Users/edinacelic/Documents/GitHub/SheepFit/Sheep.Site.Api.csproj",
       "projectName": "Sheep.Site.Api",
-      "projectPath": "/Users/edinacelic/Documents/GitHub/SheepFitMVC/Sheep.Site.Api.csproj",
+      "projectPath": "/Users/edinacelic/Documents/GitHub/SheepFit/Sheep.Site.Api.csproj",
       "packagesPath": "/Users/edinacelic/.nuget/packages/",
-      "outputPath": "/Users/edinacelic/Documents/GitHub/SheepFitMVC/obj/",
+      "outputPath": "/Users/edinacelic/Documents/GitHub/SheepFit/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
